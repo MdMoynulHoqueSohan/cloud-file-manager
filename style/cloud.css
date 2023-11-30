@@ -1,0 +1,28 @@
+.full-header{
+    width: 100%;
+    margin: 20px 28px;
+}
+.full-header a{ 
+    text-decoration: none;
+}
+.company-logo{
+    display: flex;
+    gap:50px;
+}
+.nav-info{
+    display: flex;
+    justify-content: space-around;
+}
+.thumb-list{
+    display: flex;
+    gap: 20px;
+}
+.thumb-list li {
+    list-style: none;
+    
+}
+.thumb{
+    width: 8em;
+    height: 5em;
+    border-radius: 8px;
+}
