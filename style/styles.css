@@ -14,26 +14,35 @@
     "side-nav aside-bar"  
     ;
 }
+
 .side-nav{
-    background-color: rgb(209, 216, 214);
+    background-color: #F7F9FA; 
     padding-left: 20px;
 }
 .side-nav-back{
     display: flex;
     flex-direction: column;
 }
+.balloon-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    float: left;
+}
 .nav-icon-border{
     margin: 20px 0px;
-    background-color: aliceblue;
-    width: 18px;
-    height: 15px;
+    background-color: #FFFFFF;
+    width: 27px;
+    height: 25px;
     border-radius: 50%;
-    padding: 20px;
+    box-shadow:  5px 5px 10px gainsboro;
+    padding: 10px;
 }
 .nav-btn{
     width: 90%;
     height: 40px;
-    background-color: #00eaff;
+    background-color: #4782FF;
     border: none;
     border-radius: 8px;
     font-weight: 600;
@@ -44,14 +53,15 @@
 }
 .side-nav-list li {
     list-style: none;
-    padding: 5px 0px;
-    color: black;
+    padding: 10px 0px;
+    color: #CDCFD6 ;
 }
 .side-nav-list a{
     text-decoration: none;
+    color: #494747;     
 }
-.nested-list i{
-    margin-right: 7px;
+.nav-link-list{
+    margin-right: 10px;
 }
 .side-nav-footer{
     padding: 150px 20px;
@@ -59,16 +69,16 @@
 .side-nav-footer hr{
     margin: 20px 0 ;
     width: 90%;
-    border: 2px solid #00eaff;
+    border: 2px solid #4782FF;
     border-radius: 2px;
 }
-.off-font, .angle-awrrow, small{
+.off-font,.angle-awrrow, small{
     color: #aaa9a9;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 .footer-font{
     float: right;
-    color: #00eaff;
+    color: #4782FF;
     font-weight: 600;
 }
 .footer-angles{
@@ -109,30 +119,34 @@
     display: flex;
     gap:50px;
     flex-direction: column;
-    background-color: aliceblue; 
+    background-color: #ffffff; 
 }
 .section-title{
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    margin: 20px 20px;
     color: #494747;
 }
 .folder-card{
     display: flex;
-    margin: 20px 30px;
-    gap: 50px;
+    margin: 0px 20px;
+    gap: 14px;
 }
 .folder-details{
-    background-color: #cecece;
-    padding: 10px;
-    border-radius: 8px;
+    background-color: #f6f6f6;
+    padding: 30px;
+    border-radius: 5px;
+}
+.folder-details h5{
+    margin-top: 10px;
+    text-align: center;
 }
 .folder-card img{
     width: 100px;
     height: 80px;
 }
 .recnet-table-container{
-    margin-top: 30px;
+    margin-top: 5px;
 }
 .table-container{
     border-collapse: collapse;
