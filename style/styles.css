@@ -60,6 +60,13 @@
     text-decoration: none;
     color: #494747;     
 }
+.side-nav-list-two{
+    margin-top: 20px ;
+}
+.side-nav-list-two li{
+    list-style: none;
+    margin: 15px -20px;
+}
 .nav-link-list{
     margin-right: 10px;
 }
@@ -77,13 +84,13 @@
     margin: 0 10px;
 }
 .footer-font{
-    float: right;
+    float:right;
     color: #4782FF;
-    font-weight: 600;
 }
 .footer-angles{
     display: flex;
     justify-content: space-between;
+
 }
 .angle-awrrow{
     display: flex;
